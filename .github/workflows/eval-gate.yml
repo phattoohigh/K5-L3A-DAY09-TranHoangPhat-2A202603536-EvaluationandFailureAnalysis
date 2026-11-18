@@ -1,5 +1,9 @@
 name: lab9-eval-gate
-on: [pull_request, workflow_dispatch]
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
 permissions: {contents: read}
 concurrency: {group: "eval-gate-${{ github.ref }}", cancel-in-progress: true}
 jobs:
