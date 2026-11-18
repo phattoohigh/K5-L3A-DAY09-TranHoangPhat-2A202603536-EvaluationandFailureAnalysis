@@ -7,7 +7,7 @@ Card này đi kèm mỗi báo cáo và được dùng lại ở Day 10.
 - **Baseline:** `E-swarm-20261117-8238`.
 - **Đối chứng tốt:** `E-fixed-20261117-8238`.
 - **Regression:** `E-seeded_regression-20261117-8238`.
-- **Phiên bản:** branch `starter/d09` · eval set v1 SHA `823842f61223` ·
+- **Phiên bản:** branch `main` · code commit `0f64114` · eval set v1 SHA `823842f61223` ·
   `metric_spec_version=1.0` · Python 3.12.16 · seeds 11/22/33/44/55.
 - **Eval set:** 14 item × 5 seed, nguồn `lab8_public`; nhãn tách riêng trong
   `data/eval/labels_v1.json`.
