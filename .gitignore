@@ -3,3 +3,19 @@ __pycache__/
 src/reports/
 src/traces/
 *.sqlite
+
+# Secrets and local environments inherited from the Lab 8 runtime.
+.env
+.env.*
+!.env.example
+.venv/
+.pytest_cache/
+.DS_Store
+
+# Runtime and instructor-only artifacts must never be submitted.
+*.sqlite-*
+traces/
+student_drop/
+src/reports/hidden_grade.json
+src/reports/bonus_hidden.json
+src/eval/instructor/
